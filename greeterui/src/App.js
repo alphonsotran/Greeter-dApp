@@ -10,7 +10,7 @@ class App extends Component {
       greeting: ""
     }
   }
-  ComponentWillMount() {
+  componentWillMount() {
     var data = greeterContract.greet()
     this.setState({
       greeting: String(data)
