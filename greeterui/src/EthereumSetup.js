@@ -1,6 +1,6 @@
 import Web3 from 'web3';
 
-const ETHEREUM_CLIENT = new Web3(new Web.providers.HttpProvider("http://localhost:8545"))
+const ETHEREUM_CLIENT = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
 
 
 var greeterABI =
